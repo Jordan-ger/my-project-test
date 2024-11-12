@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; }
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box; }
+
+button:hover {
+    background-color: #45a049;
+}
+
+.hidden {
+    display: none;
+}
+
+#loginFromRegisterBtn {
+    background-color: #f44336;     margin-top: 10px; }
+
+#loginFromRegisterBtn:hover {
+    background-color: #d32f2f;
+}
+
+#registerBtn {
+    margin-top: 10px; }
+
+#errorMsg {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.navbar {
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    z-index: 1000; 
+}
+
+.navbar__link {
+    display: inline-block;             
+    background-color: #4CAF50;         
+    color: white;                      
+    padding: 12px 30px;                
+    text-align: center;                
+    font-size: 16px;                   
+    font-weight: bold;                 
+    text-decoration: none;             
+    border-radius: 25px;   
+    transition: all 0.3s ease;         
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+
+.navbar__link:hover {
+    background-color: #45a049;         
+    transform: scale(1.05);             
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); 
+}
+
+
+.navbar__link:active {
+    transform: scale(0.98);             
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white; 
+    border-radius: 5px; 
+    text-align: center;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #0056b3; 
+}
+
+.button:active {
+    background-color: #004085; 
+}

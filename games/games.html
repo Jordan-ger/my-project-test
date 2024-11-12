@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игра в Пары</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<nav class="navbar">
+    <ul>
+        <a href="../index.html" class="navbar__link">Назад</a>
+    </ul>
+</nav>
+
+<body>
+    <div class="game-container">
+        <h1>Игра в Пары</h1>
+
+        <div class="input-container">
+            <label for="pairsInput">Введите количество пар:</label>
+            <input type="number" id="pairsInput" min="1" max="10" placeholder="Количество пар" />
+            <button id="startGameBtn">Начать игру</button>
+        </div>
+
+        <div id="timer">Таймер: <span id="time">0</span> секунд</div>
+
+        <div class="cards-container" id="cardsContainer"></div>
+
+        <button id="restartGameBtn" class="hidden">Начать заново</button>
+        <button id="stopGameBtn" class="hidden">Остановить игру</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

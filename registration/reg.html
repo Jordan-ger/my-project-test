@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 4 - Форма регистрации</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <a href="../index.html" class="navbar__link">Назад</a>
+        </ul>
+    </nav>
+
+    <div id="loginForm" class="form-container">
+        <h2>Вход</h2>
+        <input type="email" id="loginEmail" placeholder="Почта" required>
+        <input type="password" id="loginPassword" placeholder="Пароль" required>
+        <button id="loginBtn">Войти</button>
+        <button id="registerBtn">Регистрация</button>
+    </div>
+
+    <div id="registerForm" class="form-container hidden">
+        <h2>Регистрация</h2>
+        <input type="text" id="firstName" placeholder="Имя" required>
+        <input type="text" id="lastName" placeholder="Фамилия" required>
+        <input type="email" id="registerEmail" placeholder="Почта" required>
+        <input type="password" id="registerPassword" placeholder="Пароль" required>
+        <input type="password" id="confirmPassword" placeholder="Повторите пароль" required>
+        <button id="registerSubmitBtn">Зарегистрироваться</button>
+        <button id="loginFromRegisterBtn">Вход</button>
+    </div>
+
+    <div id="userPage" class="form-container hidden">
+        <h2>Добро пожаловать, <span id="userName"></span></h2>
+        <button id="logoutBtn">Выйти</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
