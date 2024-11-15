@@ -20,32 +20,32 @@ const cardsData = [
         topics: ["Медиазапросы", "Flexbox", "Grid-система"]
     },
     {
-        image: "five.png",
+        image: "one.png",
         title: "Git и GitHub",
         topics: ["Основы Git", "Основы GitHub", "Работа с ветками"]
     },
     {
-        image: "six.png",
+        image: "two.png",
         title: "Асинхронность в JavaScript",
         topics: ["Promises", "Async/Await", "Callbacks"]
     },
     {
-        image: "seven.png",
+        image: "three.png",
         title: "Роутинг в JS",
         topics: ["Single-page applications", "Работа с URL", "React Router"]
     },
     {
-        image: "eight.png",
+        image: "four.png",
         title: "Прототипы в JS",
         topics: ["Прототипное наследование", "Методы и свойства объектов"]
     },
     {
-        image: "nine.png",
+        image: "one.png",
         title: "SEO-оптимизация",
         topics: ["Метатеги", "Микроданные", "SEO для JavaScript"]
     },
     {
-        image: "ten.png",
+        image: "two.png",
         title: "Продвинутый CSS",
         topics: ["Анимации", "Псевдоклассы", "CSS-переменные"]
     }
